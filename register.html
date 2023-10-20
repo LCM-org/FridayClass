@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="css/style.css">
+
+        <style>
+
+            input[type=text],input[type=password],select, input[type=submit]  {
+                width: 100%;
+                padding: 10px;
+                margin: 5px 0;
+                display: inline-block;
+                border: solid;
+            }
+
+            .submit_class{
+                background-color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover{
+                background-color: #e38a0d;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+            <img src="images/logo.jpeg" width="300px" height="300px">
+        
+            <div class="header_title">
+              <h1 class="header_title_large" style="color: black;">Welcome to my website</h1>
+              <h1 class="header_title_small">ISO Cerited LLC Website</h1>
+            </div>
+          </header>
+
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="">Profile</a></li>
+              <li><a href="">Login</a></li>
+              <li style="background-color: red;"><a href="register.html">Register</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="form_div">
+                <div class="offer_title">Register for Offers here !!!</div>
+                <div class="inner_form_div">
+                    <form>
+                        <label>First Name</label><input type="text" placeholder="Enter First Name">
+                        <label>Last Name</label><input type="text" placeholder="Enter Last Name">
+                        <label>Email</label><input type="text" placeholder="Enter Email ">
+                        <label>Password</label><input type="password" placeholder="Enter password">
+                        <label>Address</label><input type="text" placeholder="Enter Address">
+                        <label>City</label>
+                        <select>
+                            <option>Toronto</option>
+                            <option>Montreal</option>
+                            <option>Calgary</option>
+                            <option>Vancouver</option>
+                        </select><br>
+                        <label>Gender</label>
+                        <input type="radio" name="gender"><label>Male</label>
+                        <input type="radio" name="gender"><label>Female</label>
+
+                        <input class="submit_class" type="submit" value="Submit Here !!">
+
+                    </form>
+                </div>
+          </div>
+
+
+
+
+    </body>
+
+</html>
